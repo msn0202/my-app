@@ -1,0 +1,10 @@
+.list-bar{
+      display: flex
+;
+    padding: 1rem;
+    list-style-type: none;
+}
+.list-bar li a{
+    text-decoration: none;
+    padding: 0.5rem;
+}

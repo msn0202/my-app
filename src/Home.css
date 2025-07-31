@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header1 header1"
+    "section section section";
+  gap: 0.5rem;
+}
+
+.header {
+  grid-area: header;
+  border: 1px solid green;
+  padding: 0.5rem;
+  background-color: burlywood;
+}
+
+.header1 {
+  grid-area: header1;
+  border: 1px solid red;
+  padding: 0.5rem;
+  background-color: beige;
+}
+
+h1 {
+  color: greenyellow;
+}
+.headerimg {
+  width: 100%;
+
+  object-fit: contain;
+}
