@@ -32,7 +32,7 @@ body {
 h1 {
   color: greenyellow;
 }
-.headerimg {
+.header img {
   width: 100%;
 
   object-fit: contain;
