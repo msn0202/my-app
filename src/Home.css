@@ -1,39 +1,79 @@
+/* Reset and base styles */
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
 }
 
+/* Container Grid Layout */
 .container {
   display: grid;
   grid-template-areas:
-    "header header1 header1"
-    "section section section";
-  gap: 0.5rem;
+ 'header header1 header1'
+ 'section section section'
+ 'footer footer footer';
+  grid-template-rows: auto auto auto;
+
+  gap: 1rem;
+  padding: 1rem;
 }
 
+/* Header */
 .header {
   grid-area: header;
-  border: 1px solid green;
-  padding: 0.5rem;
-  background-color: burlywood;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
 }
 
+/* Navbar */
 .header1 {
   grid-area: header1;
-  border: 1px solid red;
-  padding: 0.5rem;
-  background-color: beige;
+  background-color: #e0e0e0;
+  padding: 1rem;
 }
 
-h1 {
-  color: greenyellow;
+/* Section Grid */
+.section {
+  grid-area: section;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns on desktop */
+  gap: 1rem;
 }
-.header img {
-  width: 100%;
 
-  object-fit: contain;
+/* Boxes */
+.box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+  aspect-ratio: 1 / 1;
+}
+
+/* Footer */
+.footer {
+grid-area: footer;
+  background-color: #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Responsive for tablets */
+@media (max-width: 768px) {
+  .section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 480px) {
+  .section {
+    grid-template-columns: 1fr;
+  }
 }

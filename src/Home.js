@@ -1,6 +1,6 @@
 import "./Home.css";
 import Navbar from "./Navbar";
-import headerPhone from "./assets/images/header-phone.jpg";
+// import myImage from "./assets/images/banner-image.jpg";
 
 export default function Home() {
   return (
@@ -13,10 +13,27 @@ export default function Home() {
           <Navbar />
         </div>
         <section className="section">
-          <div className="banner">
-            <img src={headerPhone} alt="Phone Banner" />
-          </div>
+          <div className="box">1</div>
+          <div className="box">2</div>
+          <div className="box">3</div>
+          <div className="box">4</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
+          <div className="box">1</div>
         </section>
+
+        <footer className="footer">
+          <p>Copy right reserved 2025</p>
+        </footer>
       </div>
     </>
   );
