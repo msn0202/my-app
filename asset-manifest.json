@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.9af72286.css",
-    "main.js": "/my-app/static/js/main.9973ae99.js",
+    "main.css": "/my-app/static/css/main.81d4850f.css",
+    "main.js": "/my-app/static/js/main.050e1577.js",
     "static/js/453.96453769.chunk.js": "/my-app/static/js/453.96453769.chunk.js",
+    "static/media/infonix.png": "/my-app/static/media/infonix.398f798b64fe8be35294.png",
+    "static/media/nothing.png": "/my-app/static/media/nothing.b96ffee7809c7ccb41ef.png",
+    "static/media/Techno.png": "/my-app/static/media/Techno.0c4b7b78ea409a80b516.png",
+    "static/media/apple.png": "/my-app/static/media/apple.e29e9408a204fbacdd9f.png",
+    "static/media/Huawei.png": "/my-app/static/media/Huawei.e9c6dab91f802fa9382d.png",
+    "static/media/realme.png": "/my-app/static/media/realme.1d7f07320135c0dd39c5.png",
+    "static/media/poco.png": "/my-app/static/media/poco.8da1b5a0727753606864.png",
+    "static/media/Motorola-logo.jpg": "/my-app/static/media/Motorola-logo.e171700ead76c7db3a20.jpg",
+    "static/media/google.jpg": "/my-app/static/media/google.65c7d790987f23950304.jpg",
+    "static/media/vivo.svg": "/my-app/static/media/vivo.922257478c591cfa7955ec92a46d719a.svg",
     "index.html": "/my-app/index.html",
-    "main.9af72286.css.map": "/my-app/static/css/main.9af72286.css.map",
-    "main.9973ae99.js.map": "/my-app/static/js/main.9973ae99.js.map",
+    "main.81d4850f.css.map": "/my-app/static/css/main.81d4850f.css.map",
+    "main.050e1577.js.map": "/my-app/static/js/main.050e1577.js.map",
     "453.96453769.chunk.js.map": "/my-app/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9af72286.css",
-    "static/js/main.9973ae99.js"
+    "static/css/main.81d4850f.css",
+    "static/js/main.050e1577.js"
   ]
 }
