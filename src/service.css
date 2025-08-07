@@ -1,0 +1,88 @@
+/* Global Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Section Container */
+.section-class {
+  width: 100%;
+  background-color: azure;
+
+  padding: 1rem;
+}
+
+/* Flex Layout for Items */
+.aside {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Item Box (Card Style) */
+.item {
+  width: 100%;
+  max-width: 300px;
+  min-height: 300px;
+  background-color: #f5f5f5;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Paragraph Styling Inside Items */
+.item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  font-weight: normal;
+}
+
+/* Footer Styling */
+.footer-one {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: burlywood;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Form Inputs */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="message"],
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Submit Button */
+form button,
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover,
+.submit-button:hover {
+  background-color: #0056b3;
+}

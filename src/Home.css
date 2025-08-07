@@ -5,18 +5,22 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   font-family: Arial, sans-serif;
 }
+
+
+
 
 /* Container Grid Layout */
 .container {
   display: grid;
   grid-template-areas:
- 'header header1 header1'
- 'section section section'
- 'footer footer footer';
+    "header header1 header1"
+    "section section section"
+    "footer footer footer";
   grid-template-rows: auto auto auto;
 
   gap: 1rem;
@@ -29,6 +33,7 @@ html, body {
   background-color: #f0f0f0;
   padding: 1rem;
   text-align: center;
+  border-radius: 5px;
 }
 
 /* Navbar */
@@ -36,34 +41,49 @@ html, body {
   grid-area: header1;
   background-color: #e0e0e0;
   padding: 1rem;
+  border: 5px;
 }
 
 /* Section Grid */
 .section {
-  grid-area: section;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columns on desktop */
-  gap: 1rem;
+    grid-area: section;
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    padding: 10px 40px;
 }
 
 /* Boxes */
 .box {
-  background-color: #fff;
+ background-color: #fff;
   border: 1px solid #ccc;
   text-align: center;
-  padding: 2rem;
   font-weight: bold;
-  aspect-ratio: 1 / 1;
-}
+  width: 200px;
+  height: 162px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 
+}
+.box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
 /* Footer */
 .footer {
-grid-area: footer;
+  grid-area: footer;
   background-color: #ddd;
   padding: 1rem;
   text-align: center;
+  border: 5px;
 }
-
+img {
+  object-fit: contain;
+  max-width: 100%; /* Ensures image doesn't overflow if larger than div */
+  max-height: 100%;
+}
 /* Responsive for tablets */
 @media (max-width: 768px) {
   .section {

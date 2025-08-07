@@ -1,17 +1,23 @@
-import React from "react";
+
 import Navbar from "./Navbar";
+import "./Contact.css";
 
-export default function Contact() {
+export default function Home() {
   return (
-    <div className="container">
-      <header className="header">
- 
+    <>
+      <div className="container">
+        <header className="header">
+          <h1>Welcome Mobile</h1>
+        </header>
+        <div className="header1">
+          <Navbar />
+        </div>
+       
 
-        <h1>Welcome  Mobile</h1>
-      </header>
-      <div className="header1">
-        <Navbar />
+        <footer className="footer-one">
+          <p>Copy right reserved 2025</p>
+        </footer>
       </div>
-    </div>
+    </>
   );
 }
