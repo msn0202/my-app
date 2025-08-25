@@ -17,6 +17,10 @@ import "./Product.css";
 // import poco from "./assets/images/poco.png";
 // import infonix from "./assets/images/infonix.png";
 export default function Home() {
+  function Handler() {
+    alert("HELLO");
+  }
+
   return (
     <>
       <div className="container">
@@ -26,17 +30,73 @@ export default function Home() {
         <div className="header1">
           <Navbar />
         </div>
-        </div>
-        <section className="section">
+      </div>
+      <section className="prdct-section">
         <div className="prdct">
-          1
+          <div className="prdct-p">
+            <button onClick={Handler}>ADD</button>
+            <button>BUYNOW</button>
+          </div>
         </div>
-        </section>
+        <div className="prdct">
+          <div className="prdct-pq">
+            <button onClick={Handler}>ADD</button>
+            <button>BUYNOW</button>
+          </div>
+        </div>
+        <div className="prdct">
+          <div className="prdct-p">
+            <button onClick={Handler}>ADD</button>
+            <button>BUYNOW</button>
+          </div>
+        </div>
+        <div className="prdct">
+          <div className="prdct-p">
+            <button onClick={Handler}>ADD</button>
+            <button>BUYNOW</button>
+          </div>
+        </div>
+        <div className="prdct">
+          <div className="prdct-p">
+            <button onClick={Handler}>ADD</button>
+            <button>BUYNOW</button>
+          </div>
+        </div>
+        <div className="prdct">
+          <div className="prdct-p">
+            <button onClick={Handler}>ADD</button>
+            <button>BUYNOW</button>
+          </div>
+        </div>
+        <div className="prdct">
+          <div className="prdct-p">
+            <button onClick={Handler}>ADD</button>
+            <button>BUYNOW</button>
+          </div>
+        </div>
+        <div className="prdct">
+          <div className="prdct-p">
+            <button onClick={Handler}>ADD</button>
+            <button>BUYNOW</button>
+          </div>
+        </div>
+        <div className="prdct">
+          <div className="prdct-p">
+            <button onClick={Handler}>ADD</button>
+            <button>BUYNOW</button>
+          </div>
+         </div>
+         <div className="prdct">
+          <div className="prdct-p">
+             <button onClick={Handler}>ADD</button>
+             <button>BUYNOW</button>
+           </div>
+         </div> 
+      </section>
 
-        <footer className="footer-one">
-          <p>Copy right reserved 2025</p>
-        </footer>
-
+      <footer className="footer-one">
+        <p>Copy right reserved 2025</p>
+      </footer>
     </>
   );
 }

@@ -23,8 +23,7 @@ body {
     "footer footer footer";
   grid-template-rows: auto auto auto;
 
-  gap: 1rem;
-  padding: 1rem;
+
 }
 
 /* Header */
@@ -73,11 +72,12 @@ body {
 }
 /* Footer */
 .footer {
-  grid-area: footer;
-  background-color: #ddd;
-  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: burlywood;
   text-align: center;
-  border: 5px;
+  padding: 10px;
 }
 img {
   object-fit: contain;

@@ -76,7 +76,10 @@ export default function Home() {
         </section>
 
         <footer className="footer">
-          <p>Copy right reserved 2025</p>
+          {/* <p>Copy right reserved 2025</p> */}
+          <div>1</div>
+            <div>2</div>
+              <div>3</div>
         </footer>
       </div>
     </>
