@@ -69,14 +69,19 @@ export default function Home() {
             <img src={techno} alt="name" />
           </div>
           <div className="box">
-            1
+  
             <img src={infonix} alt="name" />
           </div>
-          <div className="box">1</div>
+          <div className="box"></div>
         </section>
+<section>
+<div>
+  <input type="text" />
+</div>
 
+</section>
         <footer className="footer">
-          {/* <p>Copy right reserved 2025</p> */}
+          <p>Copy right reserved 2025</p>
           <div>1</div>
             <div>2</div>
               <div>3</div>

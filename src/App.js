@@ -6,6 +6,7 @@ const Home=lazy(()=>import("./Home"));
 const Product=lazy(()=>import("./Product"));
 const Service=lazy(()=>import("./Service"));
 const Contact=lazy(()=>import("./Contact"));
+const Register=lazy(()=>import("./Register"));
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/register" element={<Register/>}/>
       </Routes>
       </Suspense>
     </>
