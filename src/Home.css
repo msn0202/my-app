@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.header-bar {
+  width: 100%;
+  height: 10vh;
+
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-one {
+  width: 50%;
+  height: 10vh;
+}
+.header-two {
+  width: 50%;
+  height: 20vh;
+}
+.logo {
+  width: 88px;
+  height: 33px;
+  padding: 10px 40px;
+}
+@media screen and (max-width: 440px) {
+  .header-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 100px;
+    height: 20px;
+    padding: 10px 90px;
+  }
+}
