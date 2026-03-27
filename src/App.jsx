@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>MANJUNATH</h1>
+<h1>Welcome To New Journey For MSN In Bangaluru</h1>
     </>
   );
 }
