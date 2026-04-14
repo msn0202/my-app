@@ -15,8 +15,8 @@ export default function Home() {
           <Navbar />
         </div>
       </div>
-        <h1 class="text-3xl font-bold underline">
-    Hello world!
+        <h1 class="text-3xl font-bold underline caret-amber-500">
+   Coming soon shortly 
   </h1>
       <Footer />
     </>
