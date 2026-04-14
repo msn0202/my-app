@@ -1,13 +1,13 @@
 h1 {
   background: linear-gradient(to right, #a2ff00, #92adfe);
-  -webkit-background-clip: text;
+  background-clip: text; 
   -webkit-text-fill-color: transparent;
   text-align: center;
   margin-top: 10px;
 }
 h3 {
   background: linear-gradient(to right, #ffae00, #92adfe);
-  -webkit-background-clip: text;
+   background-clip: text; 
   -webkit-text-fill-color: transparent;
   text-align: center;
   margin-top: 10px;
