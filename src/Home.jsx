@@ -16,7 +16,8 @@ export default function Home() {
         </div>
       </div>
         <h1 class="text-3xl font-bold underline caret-amber-500">
-   Coming soon shortly 
+Time started
+
   </h1>
       <Footer />
     </>
