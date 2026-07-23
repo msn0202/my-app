@@ -1,22 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import logo from "./assets/React-logo.png";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-export default function Home() {
+const Home = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <>
-      <div className="header-bar">
+    <div className="app">
+      <header className="header-bar">
         <div className="header-one">
-          <img src={logo} alt="React Logo" className="logo" />
+          <img src={logo} alt="Company Logo" className="logo" />
         </div>
-        <div className="header-two">
+
+        {/* Hamburger */}
+        <div
+          className="hamburger"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          ☰
+        </div>
+
+        {/* Navigation */}
+        <div className={`header-two ${menuOpen ? "active" : ""}`}>
           <Navbar />
         </div>
-      </div>
-      <h1 class="text-3xl font-bold underline caret-amber-500">Time started</h1>
+      </header>
+
+      <main className="hero">
+        <div className="hero-content">
+          <h1 className="hero-title">⏰ Time Started</h1>
+
+          <p className="hero-subtitle">
+            🚀 Transform the way you manage your time.
+          </p>
+
+          <button className="start-btn">
+            🚀 Get Started
+          </button>
+        </div>
+      </main>
+
       <Footer />
-    </>
+    </div>
   );
-}
+};
+
+export default Home;
